@@ -1,0 +1,26 @@
+{
+  "dailyTweets": [
+    "Daily Test Tweet 1",
+    "Daily Test Tweet 2",
+    "Daily Test Tweet 3",
+    "Daily Test Tweet 4",
+    "Daily Test Tweet 5",
+    "Daily Test Tweet 6",
+    "Daily Test Tweet 7",
+    "Daily Test Tweet 8",
+    "Daily Test Tweet 9",
+    "Daily Test Tweet 10"
+  ],
+  "mentionTweets": [
+    "Daily Mention Test Tweet 1",
+    "Daily Mention Test Tweet 2",
+    "Daily Mention Test Tweet 3",
+    "Daily Mention Test Tweet 4",
+    "Daily Mention Test Tweet 5",
+    "Daily Mention Test Tweet 6",
+    "Daily Mention Test Tweet 7",
+    "Daily Mention Test Tweet 8",
+    "Daily Mention Test Tweet 9",
+    "Daily Mention Test Tweet 10"
+  ]
+}

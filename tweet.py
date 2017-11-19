@@ -81,8 +81,8 @@ def postMentionTweet():
 limit = 0
 while limit < 1:
 	postDailyTweet()
-	print("Waiting 10 min for next tweet.")
-	time.sleep(600) #wait 10 min for next tweet.
+	print("Waiting 15 min for next tweet.")
+	time.sleep(901) #wait 15 min for next tweet.
 	postMentionTweet()
-	print("Waiting 10 min for next tweet.")
-	time.sleep(600) #wait 10 min for next tweet.
+	print("Waiting 15 min for next tweet.")
+	time.sleep(901) #wait 15 min for next tweet.

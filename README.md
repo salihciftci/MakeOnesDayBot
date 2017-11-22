@@ -6,7 +6,7 @@ Bot randomly send mention tweet to random people like "Hello", "You're beatiful.
 
 Bot's goal is to make people smile. It's still in under development and It's alive right now. [Check it out!](https://twitter.com/MakeOnesDayy)
 
-# Todo
+# To-do
 
 - [ ] Better search agorithm.
 - [ ] Direct Message.

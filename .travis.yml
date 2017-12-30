@@ -10,3 +10,6 @@ script:
 
 os:
   - linux
+
+virtualenv:
+  system_site_packages: true

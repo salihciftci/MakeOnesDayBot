@@ -1,11 +1,5 @@
 {
-  "auth": {
-    "USER_OAUTH_TOKEN": "USER_OAUTH_TOKEN",
-    "USER_OAUTH_TOKEN_SECRET": "USER_OAUTH_TOKEN_SECRET",
-    "YOUR_APP_KEY": "YOUR_APP_KEY",
-    "YOUR_APP_SECRET": "YOUR_APP_SECRET"
-  },
-  "dailyTweets": [
+  "tweets": [
     "Everybody likes polite people.",
     "Don't cry because it's over, smile because it happened. -Dr. Seuss",
     "You only live once, but if you do it right, once is enough. -Mae West",

@@ -1,0 +1,4 @@
+# Ignoring Auth.json file.
+
+/build/auth.json
+/tests/auth.json

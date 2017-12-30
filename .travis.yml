@@ -7,3 +7,6 @@ install:
 
 script:
   - python3 build/tina.py
+
+os:
+  - osx

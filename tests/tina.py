@@ -1,9 +1,9 @@
-import requests, sys, json, time, random
+import requests, sys, json, time, random, os.path
 from requests_oauthlib import OAuth1
 from urllib.parse import quote_plus as encode
 
 def findPeople():
-	with open("db.json") as file:
+	with open(os.path.join(scriptPath, "db.json")) as file:
 		db = json.load(file)
 
 	# Selecting random keyword
@@ -60,7 +60,8 @@ def tweet(status):
 
 
 if __name__ == "__main__":
-	with open("auth.json") as file:
+	scriptPath = os.path.dirname(__file__)
+	with open(os.path.join(scriptPath, "auth.json")) as file:
 		authJson = json.load(file)
 
 	authUrl = "https://api.twitter.com/1.1/account/verify_credentials.json"
@@ -75,7 +76,7 @@ if __name__ == "__main__":
 		print("%s - Tina: Auth successful!" % time.ctime())
 
 	#Reading db.json for tweets
-	with open("db.json") as file:
+	with open(os.path.join(scriptPath, "db.json")) as file:
 		tweetsJson = json.load(file)
 
 	tweets = tweetsJson["tweets"]
@@ -90,9 +91,4 @@ if __name__ == "__main__":
 		for x in range (0,16):
 			tweet("mention")
 			time.sleep(901)
-
-
-
-
-
 

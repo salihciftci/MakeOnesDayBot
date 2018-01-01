@@ -3,9 +3,6 @@ from requests_oauthlib import OAuth1
 from urllib.parse import quote_plus as encode
 
 def findPeople():
-	with open(os.path.join(scriptPath, "db.json")) as file:
-		db = json.load(file)
-
 	# Selecting random keyword
 	keywords = db["keywords"]
 	keyword = keywords[random.randint(0,len(keywords))]
@@ -36,6 +33,8 @@ def tweet(status):
 			print("%s - Tina: tweeted." % time.ctime())
 		elif r.status_code == 403:
 			print("%s - Tina: Tweet duplicated." % time.ctime())
+			print("%s - Tina: Trying to tweet again.." % time.ctime())
+			tweet("tweet")
 		else:
 			print("%s - Tina: Unexpected Error, Error Code: %s" % (time.ctime(), r.status_code))
 
@@ -77,10 +76,10 @@ if __name__ == "__main__":
 
 	#Reading db.json for tweets
 	with open(os.path.join(scriptPath, "db.json")) as file:
-		tweetsJson = json.load(file)
+		db = json.load(file)
 
-	tweets = tweetsJson["tweets"]
-	mentionTweets = tweetsJson["mentionTweets"]
+	tweets = db["tweets"]
+	mentionTweets = db["mentionTweets"]
 
 	#Finding People
 	findPeople()

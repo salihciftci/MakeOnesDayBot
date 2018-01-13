@@ -1,5 +1,4 @@
-# Tina [![Build Status](https://travis-ci.org/salihciftci/Tina.svg?branch=master)](https://travis-ci.org/salihciftci/Tina)
-[![Help Contribute to Open Source](https://www.codetriage.com/salihciftci/tina/badges/users.svg)](https://www.codetriage.com/salihciftci/tina)
+# Tina [![Build Status](https://travis-ci.org/salihciftci/Tina.svg?branch=master)](https://travis-ci.org/salihciftci/Tina) [![Help Contribute to Open Source](https://www.codetriage.com/salihciftci/tina/badges/users.svg)](https://www.codetriage.com/salihciftci/tina)
 
 Tina is a Twitter bot who mentions people about their life based on their tweets.
 

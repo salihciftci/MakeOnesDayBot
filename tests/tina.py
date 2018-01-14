@@ -11,7 +11,7 @@ from urllib.parse import quote_plus as encode
 def findPeople():
     # Selecting random keyword
     keywords = db["keywords"]
-    keyword = keywords[random.randint(0, len(keywords))]
+    keyword = keywords[random.randint(0, len(keywords) - 1)]
     print("%s - Tina: Searching people keyword is %s now." %
           (time.ctime(), keyword))
 

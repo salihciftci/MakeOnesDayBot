@@ -27,9 +27,9 @@ const (
 func main() {
 	//Checking Auth
 	if verify() == 200 {
-		log.Println("Auth succesful.")
+		log.Println("Auth successful.")
 	} else {
-		log.Println("Auth unsuccesful.")
+		log.Println("Auth unsuccessful.")
 		os.Exit(1)
 	}
 

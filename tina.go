@@ -20,6 +20,10 @@ var (
 	people Tweet
 )
 
+const (
+	version = "0.1.0"
+)
+
 func main() {
 	//Checking Auth
 	if verify() == 200 {

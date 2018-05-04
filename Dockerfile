@@ -1,9 +1,10 @@
 FROM golang:1.10
+LABEL MAINTAINER="Salih Çiftçi"
 
-WORKDIR /go/src/app
+WORKDIR /go/src/tina
 COPY . .
 
 RUN go get -d -v ./...
 RUN go install -v ./...
 
-CMD ["app"]
+CMD ["tina"]

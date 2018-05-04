@@ -36,21 +36,6 @@ A few of these tweets;
 ...
 ```
 
-## Roadmap
-
-- Better search algorithm
-- Analyze people's tweet
-- More Social Network
-- Live without Social Network (:question:)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/salihciftci/tina/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-* **Salih Çiftçi** - [salihciftci](https://github.com/salihciftci)
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/salihciftci/tina/blob/master/LICENSE) file for details 
+MIT

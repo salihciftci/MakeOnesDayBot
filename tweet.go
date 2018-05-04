@@ -1,19 +1,20 @@
 package main
 
 import (
-	"github.com/dghubble/oauth1"
 	"io/ioutil"
 	"log"
 	"net/url"
 	"os"
+
+	"github.com/dghubble/oauth1"
 )
 
 // Setting up Twitter client
 var (
-	consumerKey    = ""
-	consumerSecret = ""
-	tokenKey       = ""
-	tokenSecret    = ""
+	consumerKey    = os.Getenv("key")
+	consumerSecret = os.Getenv("secret")
+	tokenKey       = os.Getenv("token")
+	tokenSecret    = os.Getenv("tokenSecret")
 
 	config = oauth1.NewConfig(consumerKey, consumerSecret)
 	token  = oauth1.NewToken(tokenKey, tokenSecret)

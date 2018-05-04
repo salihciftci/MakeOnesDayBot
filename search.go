@@ -1,8 +1,6 @@
 package main
 
-// Thank you
-//https://github.com/mholt/json-to-go
-
+// Tweet https://github.com/mholt/json-to-go
 type Tweet struct {
 	Statuses []struct {
 		CreatedAt string `json:"created_at"`

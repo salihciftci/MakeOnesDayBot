@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-// Struct for "db.json"
+// Database Struct for "db.json"
 type Database struct {
 	Keywords      []string `json:"keywords"`
 	MentionTweets []string `json:"mentionTweets"`
